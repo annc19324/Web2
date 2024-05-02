@@ -1,5 +1,6 @@
 :root{
-
+    --text: rgba(250, 250, 250, 1);
+    --button: rgba(0, 0, 0, 1);
 }
 *{
     box-sizing: inherit;
@@ -8,5 +9,22 @@
 html{
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", Helvetica;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--text);
+}
+.gird{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gird__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
 }
